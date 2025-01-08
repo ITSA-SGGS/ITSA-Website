@@ -1,39 +1,14 @@
+import head from '../assets/anchor/anchorHead.jpg';
+
 export default [
     {
-      imageUrl: "",
-      name: "Pushkar Chauhan",
+      imageUrl: head,
+      name: "Madhura Ghirnikar",
       designation: "Head",
       instagram: "",
-      linkedin: "",
+      linkedin: "http://www.linkedin.com/in/madhura-ghirnikar-a80a4632a",
       twitter: "",
-      github: ""
-    },
-    {
-        imageUrl: "",
-        name: "Pushkar Chauhan",
-        designation: "Coordinator",
-        instagram: "",
-        linkedin: "",
-        twitter: "",
-        github: ""
-      },
-      {
-        imageUrl: "",
-        name: "Pushkar Chauhan",
-        designation: "Coordinator",
-        instagram: "",
-        linkedin: "",
-        twitter: "",
-        github: ""
-      },
-      {
-        imageUrl: "",
-        name: "Pushkar Chauhan",
-        designation: "Coordinator",
-        instagram: "",
-        linkedin: "",
-        twitter: "",
-        github: ""
-      }
+      github: "https://github.com/madhuraprabodh"
+    }
   ];
   

@@ -1,7 +1,19 @@
+import SportsHead1 from '../assets/sports/sportsHead1.jpg';
+import SportsCoordinator2 from '../assets/sports/SportsCoordinator1.png';
+import SportsCoordinator1 from '../assets/sports/SportsCoordinator2.png';
 export default [
     {
+      imageUrl:SportsHead1,
+      name: "Vaibhav Ingole",
+      designation: "Head",
+      instagram: "https://www.instagram.com/vaibhav_o01/profilecard/?igsh=cWVxaG53azdsbWtk",
+      linkedin: "",
+      twitter: "",
+      github: "https://github.com/Vaibhavingole510/python-programming-practicals"
+    },
+    {
       imageUrl: "",
-      name: "Pushkar Chauhan",
+      name: "Ashutosh Hamand",
       designation: "Head",
       instagram: "",
       linkedin: "",
@@ -9,40 +21,23 @@ export default [
       github: ""
     },
     {
-      imageUrl: "",
-      name: "Pushkar Chauhan",
-      designation: "Head",
-      instagram: "",
-      linkedin: "",
+      imageUrl: SportsCoordinator1,
+      name: "Lawkesh Dhurve",
+      designation: "Coordinator",
+      instagram: "https://www.instagram.com/lavkeshrd/",
+      linkedin: "https://www.linkedin.com/in/lawkesh-dhurve/",
       twitter: "",
-      github: ""
+      github: "https://github.com/lawkeshdhurve"
     },
     {
-        imageUrl: "",
-        name: "Pushkar Chauhan",
+        imageUrl: SportsCoordinator2,
+        name: "Om Rakhade",
         designation: "Coordinator",
         instagram: "",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/om-rakhade-522a23233/?originalSubdomain=in",
         twitter: "",
-        github: ""
-      },
-      {
-        imageUrl: "",
-        name: "Pushkar Chauhan",
-        designation: "Coordinator",
-        instagram: "",
-        linkedin: "",
-        twitter: "",
-        github: ""
-      },
-      {
-        imageUrl: "",
-        name: "Pushkar Chauhan",
-        designation: "Coordinator",
-        instagram: "",
-        linkedin: "",
-        twitter: "",
-        github: ""
+        github: "https://github.com/OmRakhade"
       }
+      
   ];
   

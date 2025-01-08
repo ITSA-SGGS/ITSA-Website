@@ -5,11 +5,10 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 import exe from '../assets/exe.png'
 
 
-
-export default function Leads({ leads }) {
+export default function Faculty({ faculty }) {
   return (
     <div className="">
-      {/* Leads */}
+      {/* Faculty */}
 
       <div
         data-aos="fade-up"
@@ -19,8 +18,8 @@ export default function Leads({ leads }) {
         <div className=" flex justify-center">
           <div className=" -mt-28 h-32 w-32 rounded-full   border-3 border-red-600 ">
             <LazyLoadImage
-              src={leads.imageUrl ? leads.imageUrl : exe}
-              alt={leads.name}
+              src={faculty.imageUrl ? faculty.imageUrl : exe}
+              alt={faculty.name}
               placeholderSrc="img/Teams/exe.png"
               effect="blur"
               className=" rounded-full  object-cover "
@@ -28,34 +27,34 @@ export default function Leads({ leads }) {
           </div>
         </div>
         <div className=" p-2 ">
-          <h1 className="mb-1 text-center text-2xl font-bold">{leads.name}</h1>
+          <h1 className="mb-1 text-center text-2xl font-bold">{faculty.name}</h1>
           <p className="text-center text-sm text-gray-800">
-            {leads.designation}
+            {faculty.designation}
           </p>
         </div>
         <div className="flex justify-center gap-5 pt-5 text-xl text-gray-700   ">
           <a
-            href={leads.instagram}
+            href={faculty.instagram}
             className="hover:text-red-600"
             target="_blank"
           >
             <BsInstagram />
           </a>
           <a
-            href={leads.linkedin}
+            href={faculty.linkedin}
             className="hover:text-red-600"
             target="_blank"
           >
             <BsLinkedin />
           </a>
           <a
-            href={leads.twitter}
+            href={faculty.twitter}
             className="hover:text-red-600"
             target="_blank"
           >
             <BsTwitter />
           </a>
-          <a href={leads.github} className="hover:text-red-600" target="_blank">
+          <a href={faculty.github} className="hover:text-red-600" target="_blank">
             {" "}
             <BsGithub />
           </a>

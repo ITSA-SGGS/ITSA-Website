@@ -18,6 +18,8 @@ import AnchorCard from "./components/AnchorCard";
 import anchorData from "./data/anchorData";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import FacultyCoordinators from "./data/FacultyCoordinators";
+import Faculty from "./components/FacultyCard";
 export default function Teams() {
     React.useEffect(() => {
         AOS.init();
@@ -38,14 +40,23 @@ export default function Teams() {
                     <h1 data-aos="fade-up" data-aos-duration="1000" className=" title-font mb-20 text-center text-2xl font-medium text-gray-900 sm:text-3xl ">
                         Our Leads
                     </h1>
-
                     <section className=" flex flex-wrap justify-center gap-5">
                         {leadsData.map(leads => (
                             <LeadsCard leads={leads} key={leads.title} />
                         ))}
                     </section>
                 </article>
-
+                {/* Faculty Co-ordinators */}
+                <article className="col-auto mb-10 mt-10">
+                    <h1 data-aos="fade-up" data-aos-duration="1000" className=" title-font mb-20 text-center text-2xl font-medium text-gray-900 sm:text-3xl ">
+                        Faculty Co-ordinators
+                    </h1>
+                    <section className=" flex flex-wrap justify-center gap-5">
+                        {FacultyCoordinators.map(faculty => (
+                            <Faculty faculty={faculty} key={faculty.title} />
+                        ))}
+                    </section>
+                </article>
                 {/* Technical Committee */}
                 <article className="col-auto mb-10 mt-10">
                     <h1 data-aos="fade-up" data-aos-duration="1000" className=" title-font mb-20 text-center text-2xl font-medium text-gray-900 sm:text-3xl ">
