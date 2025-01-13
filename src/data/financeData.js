@@ -1,7 +1,10 @@
+import FinanceCoordinator1 from '../assets/finance/FinanceCoordinator1.jpg'
+import FinanceCoordinator2 from '../assets/finance/FinanceCoordinator2.jpg'
+import financeHead1 from '../assets/finance/financeHead1.jpg'
 export default [
     {
       imageUrl: "",
-      name: "Pushkar Chauhan",
+      name: "Dnyaneshwar Bajad",
       designation: "Head",
       instagram: "",
       linkedin: "",
@@ -9,17 +12,17 @@ export default [
       github: ""
     },
     {
-      imageUrl: "",
-      name: "Pushkar Chauhan",
+      imageUrl: financeHead1,
+      name: "Ashray Wankhede",
       designation: "Head",
-      instagram: "",
+      instagram: "https://www.instagram.com/iam_ashrey/",
       linkedin: "",
       twitter: "",
       github: ""
     },
     {
-        imageUrl: "",
-        name: "Pushkar Chauhan",
+        imageUrl: FinanceCoordinator1,
+        name: "Utkarsh Kshirsagar",
         designation: "Coordinator",
         instagram: "",
         linkedin: "",
@@ -27,22 +30,14 @@ export default [
         github: ""
       },
       {
-        imageUrl: "",
-        name: "Pushkar Chauhan",
+        imageUrl: FinanceCoordinator2,
+        name: "Pavan Godage",
         designation: "Coordinator",
-        instagram: "",
-        linkedin: "",
-        twitter: "",
-        github: ""
-      },
-      {
-        imageUrl: "",
-        name: "Pushkar Chauhan",
-        designation: "Coordinator",
-        instagram: "",
+        instagram: "https://www.instagram.com/pavans_24_/profilecard/?igsh=eHNkd290MTZoaHV3",
         linkedin: "",
         twitter: "",
         github: ""
       }
+      
   ];
   
