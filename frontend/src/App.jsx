@@ -15,7 +15,7 @@ const App = () => {
     <Router>
       <div className="bg-black min-h-screen">
         <Preloader />
-        <CustomCursor />
+        {/* <CustomCursor /> */}
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
